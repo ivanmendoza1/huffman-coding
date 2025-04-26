@@ -13,6 +13,13 @@ Clona o Descarga el Proyecto
 
 
 Si descargaste el proyecto como un archivo ZIP, descomprímelo.
+EN EL DIRECTORIO PRINCIPAL una vez instalado Nodejs, ejecutar el comando
+
+npm install
+
+luego ejecutar el comando 
+
+npm start
 
 
 
