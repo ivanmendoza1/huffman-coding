@@ -17,22 +17,7 @@ Si estás usando Git, clona el repositorio:git clone <URL_DEL_REPOSITORIO>
 Si descargaste el proyecto como un archivo ZIP, descomprímelo.
 
 
-Navega al Directorio del Proyecto
-cd <NOMBRE_DEL_DIRECTORIO_DEL_PROYECTO>
 
-
-Instala las DependenciasEjecuta el siguiente comando para instalar todas las dependencias listadas en package.json:
-npm install
-
-Esto instalará React, Tailwind CSS, Vis.js y otras dependencias necesarias.
-
-Inicia la AplicaciónUna vez instaladas las dependencias, inicia el servidor de desarrollo con:
-npm start
-
-Esto abrirá automáticamente la aplicación en tu navegador en http://localhost:3000.
-
-
-Uso
 
 En la pantalla inicial, ingresa el número de símbolos (entre 2 y 16) y haz clic en "Continuar".
 Ingresa las probabilidades para cada símbolo (la suma debe ser 1).
