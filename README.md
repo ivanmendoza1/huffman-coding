@@ -51,10 +51,3 @@ npm install
 El puerto 3000 está ocupadoSi el puerto 3000 ya está en uso, puedes cambiarlo al iniciar la aplicación:
 PORT=3001 npm start
 
-
-
-Autor
-
-[Tu Nombre]
-
-Si tienes alguna duda o problema, no dudes en contactarme.
