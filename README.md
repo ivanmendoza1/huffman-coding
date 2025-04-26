@@ -11,8 +11,6 @@ Sigue estos pasos para ejecutar el proyecto en tu máquina:
 
 Clona o Descarga el Proyecto
 
-Si estás usando Git, clona el repositorio:git clone <URL_DEL_REPOSITORIO>
-
 
 Si descargaste el proyecto como un archivo ZIP, descomprímelo.
 
