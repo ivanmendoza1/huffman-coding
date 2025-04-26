@@ -26,7 +26,7 @@ const HuffmanTree = ({ treeData, numSymbols }) => {
         edges.push({ from: i + 1, to: i, label: '1' });
       }
     } else {
-      // Árbol calculado con probabilidades
+    
       const addNode = (node, parentId = null, direction = null) => {
         nodes.push({
           id: node.id,
@@ -51,13 +51,13 @@ const HuffmanTree = ({ treeData, numSymbols }) => {
         hierarchical: {
           direction: 'UD',
           sortMethod: 'directed',
-          nodeSpacing: 150, // Más espacio entre nodos
-          levelSeparation: 100, // Más espacio vertical
+          nodeSpacing: 150,
+          levelSeparation: 100, 
         },
       },
       nodes: {
         shape: 'circle',
-        size: 25, // Nodos más grandes
+        size: 25, 
         font: {
           size: 14,
           multi: 'html',
@@ -70,7 +70,7 @@ const HuffmanTree = ({ treeData, numSymbols }) => {
       edges: {
         font: { align: 'middle', size: 12 },
         color: '#2196f3',
-        width: 2, // Aristas más gruesas
+        width: 2, 
       },
     };
 
